@@ -40,9 +40,9 @@ export default function App() {
                     </div>
                    
                   </form>
-                  <div class="reserve-dialog">
+                  {/* <div class="reserve-dialog">
                   <p class="cp-reserved">Your session has been reserved</p>
-                  </div>
+                  </div> */}
                </div> 
                {/* end of cp-form */}
                   </div> 
