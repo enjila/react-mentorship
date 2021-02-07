@@ -1,53 +1,139 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { Button, FormControl, InputGroup, Card } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
-    <div>
-      <section id="colorlib-hero" className="js-fullheight" data-section="home">
-        <div className="flexslider js-fullheight">
-          <ul className="slides">
-            <li>
-              <div className="overlay" />
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                    <div className="slider-text-inner js-fullheight">
-                      <div className="desc">
-                        <h1>
-                          <a href="" target="_blank">
-                            Search
-                          </a>
-                        </h1>
-                        <h1>Career Pathway</h1>
-                        <h1>
-                          <a href="" target="_blank">
-                            Search your roles for quicker response
-                          </a>
-                        </h1>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                    <div className="slider-text-inner js-fullheight">
-                      <div className="desc">
-                        <h2>Tell me about yourself</h2>
-                        <h5>Experience Level</h5>
-                        <h5>Degree</h5>
-                        <h5>Skills</h5>
-                        <h5>Work Rights</h5>
-                        <h5>Location</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
+    <div className="container pt-4">
+      <p className="text-center pt-4">
+        Work with leading tech mentors and gain access to personalized guidance
+        <br />
+        to reach your potential. Ongoing sessions and expert advice, <br />
+        on your terms, all for a flat monthly price.
+      </p>
+      <InputGroup className="mb-3">
+        <FormControl
+          placeholder="Your career goal here"
+          aria-label="Recipient's username"
+          aria-describedby="basic-addon2"
+        />
+        <InputGroup.Append>
+          <Button variant="outline-secondary">Search</Button>
+        </InputGroup.Append>
+      </InputGroup>
+      <div className="bg-dark p-4 borderRadius">
+        <Button variant="light mb-2">Front End Developer</Button>{" "}
+        <Button variant="light mb-2">Back End Developer</Button>{" "}
+        <Button variant="light mb-2">UI/UX Developer</Button>{" "}
+        <Button variant="light mb-2">Designer</Button>{" "}
+        <Button variant="light mb-2">Product manager</Button>{" "}
+        <Button variant="light mb-2">Mobile App Developer</Button>{" "}
+        <Button variant="light mb-2">React</Button>{" "}
+        <Button variant="light mb-2">Data Scientist</Button>{" "}
+        <Button variant="light mb-2">Analysts</Button>
+      </div>
+      <div class="container mb-4">
+        <div className="row mt-4">
+          <div class="col-sm">
+            <Card style={{ width: "21rem" }}>
+              <Card.Body>
+                <Card.Title>Introductory Call</Card.Title>
+                <Card.Text>
+                  If you're looking for a mentor, and you're just not sure about
+                  how this all works – this should be for you. In a casual,
+                  informal introductory call, a mentor will introduce
+                  themselves, show you around the platform, explain how our
+                  mentorships work and explain how they would set up a
+                  mentorship with you.
+                </Card.Text>
+                <Button variant="primary">Read more</Button>
+              </Card.Body>
+            </Card>
+          </div>
+          <div class="col-sm">
+            <Card style={{ width: "21rem" }}>
+              <Card.Body>
+                <Card.Title>CV Feedback</Card.Title>
+                <Card.Text>
+                  If you're looking for a mentor, and you're just not sure about
+                  how this all works – this should be for you. In a casual,
+                  informal introductory call, a mentor will introduce
+                  themselves, show you around the platform, explain how our
+                  mentorships work and explain how they would set up a
+                  mentorship with you.
+                </Card.Text>
+                <Button variant="primary">Read more</Button>
+              </Card.Body>
+            </Card>
+          </div>
+          <div class="col-sm">
+            <Card style={{ width: "21rem" }}>
+              <Card.Body>
+                <Card.Title>Work Review</Card.Title>
+                <Card.Text>
+                  If you're looking for a mentor, and you're just not sure about
+                  how this all works – this should be for you. In a casual,
+                  informal introductory call, a mentor will introduce
+                  themselves, show you around the platform, explain how our
+                  mentorships work and explain how they would set up a
+                  mentorship with you.
+                </Card.Text>
+                <Button variant="primary">Read more</Button>
+              </Card.Body>
+            </Card>
+          </div>
         </div>
-      </section>
+        <div className="row mt-4">
+          <div class="col-sm">
+            <Card style={{ width: "21rem" }}>
+              <Card.Body>
+                <Card.Title>Study Plan</Card.Title>
+                <Card.Text>
+                  If you're looking for a mentor, and you're just not sure about
+                  how this all works – this should be for you. In a casual,
+                  informal introductory call, a mentor will introduce
+                  themselves, show you around the platform, explain how our
+                  mentorships work and explain how they would set up a
+                  mentorship with you.
+                </Card.Text>
+                <Button variant="primary">Read more</Button>
+              </Card.Body>
+            </Card>
+          </div>
+          <div class="col-sm">
+            <Card style={{ width: "21rem" }}>
+              <Card.Body>
+                <Card.Title>Career Strategy</Card.Title>
+                <Card.Text>
+                  If you're looking for a mentor, and you're just not sure about
+                  how this all works – this should be for you. In a casual,
+                  informal introductory call, a mentor will introduce
+                  themselves, show you around the platform, explain how our
+                  mentorships work and explain how they would set up a
+                  mentorship with you.
+                </Card.Text>
+                <Button variant="primary">Read more</Button>
+              </Card.Body>
+            </Card>
+          </div>
+          <div class="col-sm">
+            <Card style={{ width: "21rem" }}>
+              <Card.Body>
+                <Card.Title>Interview Preparation</Card.Title>
+                <Card.Text>
+                  If you're looking for a mentor, and you're just not sure about
+                  how this all works – this should be for you. In a casual,
+                  informal introductory call, a mentor will introduce
+                  themselves, show you around the platform, explain how our
+                  mentorships work and explain how they would set up a
+                  mentorship with you.
+                </Card.Text>
+                <Button variant="primary">Read more</Button>
+              </Card.Body>
+            </Card>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
