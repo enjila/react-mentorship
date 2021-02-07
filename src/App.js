@@ -37,7 +37,9 @@ export default function App() {
           <div class="col-sm">
             <Card style={{ width: "21rem" }}>
               <Card.Body>
-                <Card.Title>Introductory Call</Card.Title>
+                <Card.Title>
+                  <strong>Introductory Call</strong>
+                </Card.Title>
                 <Card.Text>
                   If you're looking for a mentor, and you're just not sure about
                   how this all works – this should be for you. In a casual,
@@ -53,7 +55,9 @@ export default function App() {
           <div class="col-sm">
             <Card style={{ width: "21rem" }}>
               <Card.Body>
-                <Card.Title>CV Feedback</Card.Title>
+                <Card.Title>
+                  <strong>CV Feedback</strong>
+                </Card.Title>
                 <Card.Text>
                   If you're looking for a mentor, and you're just not sure about
                   how this all works – this should be for you. In a casual,
@@ -69,7 +73,9 @@ export default function App() {
           <div class="col-sm">
             <Card style={{ width: "21rem" }}>
               <Card.Body>
-                <Card.Title>Work Review</Card.Title>
+                <Card.Title>
+                  <strong>Work Review</strong>
+                </Card.Title>
                 <Card.Text>
                   If you're looking for a mentor, and you're just not sure about
                   how this all works – this should be for you. In a casual,
@@ -87,7 +93,9 @@ export default function App() {
           <div class="col-sm">
             <Card style={{ width: "21rem" }}>
               <Card.Body>
-                <Card.Title>Study Plan</Card.Title>
+                <Card.Title>
+                  <strong>Study Plan</strong>
+                </Card.Title>
                 <Card.Text>
                   If you're looking for a mentor, and you're just not sure about
                   how this all works – this should be for you. In a casual,
@@ -103,7 +111,9 @@ export default function App() {
           <div class="col-sm">
             <Card style={{ width: "21rem" }}>
               <Card.Body>
-                <Card.Title>Career Strategy</Card.Title>
+                <Card.Title>
+                  <strong>Career Strategy</strong>
+                </Card.Title>
                 <Card.Text>
                   If you're looking for a mentor, and you're just not sure about
                   how this all works – this should be for you. In a casual,
@@ -119,7 +129,9 @@ export default function App() {
           <div class="col-sm">
             <Card style={{ width: "21rem" }}>
               <Card.Body>
-                <Card.Title>Interview Preparation</Card.Title>
+                <Card.Title>
+                  <strong>Interview Preparation</strong>
+                </Card.Title>
                 <Card.Text>
                   If you're looking for a mentor, and you're just not sure about
                   how this all works – this should be for you. In a casual,
