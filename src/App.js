@@ -1,10 +1,35 @@
 import "./App.css";
-import { Button, FormControl, InputGroup, Card } from "react-bootstrap";
+import {
+  Button,
+  FormControl,
+  InputGroup,
+  Card,
+  Navbar,
+  Nav,
+  NavDropdown,
+} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
     <div className="container pt-4">
+      <Navbar bg="primary" expand="lg">
+        <Navbar.Brand href="#home" className="text-light">
+          Journey
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto"></Nav>
+          <Nav>
+            <Nav.Link href="#home" className="text-light">
+              <strong>Home</strong>
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="#get-started" className="text-light">
+              <strong>Get Started</strong>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
       <p className="text-center pt-4">
         Work with leading tech mentors and gain access to personalized guidance
         <br />
