@@ -23,14 +23,28 @@ export default function App() {
                   {/* end of col */}
                   <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                     <img src="https://cdn.mentorcruise.com/img/undraw_unexpected_friends_tg6k.svg" alt="student image" class="img-fluid"></img>
+                    {/* <img src="/cp-student.jpg" alt="student image" class="img-fluid"></img> */}
                     </div>
                   </div>  
                   </div>
+               {/* end of career path */}
 
-                  
-
-
-                  {/* end of career path */}
+               <div class="cp-form">
+                 <h5>Enter your details to reserve</h5>
+               <form action="#" class="form-inline">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="username" placeholder="Enter your name"/>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email"/>
+                      <input type="Number" class="form-control" id="email" placeholder="Enter your phone number"/>
+                      <button type="submit" class="btn btn-default" class="cp-submit">Submit</button>
+                    </div>
+                   
+                  </form>
+                  <div class="reserve-dialog">
+                  <p class="cp-reserved">Your session has been reserved</p>
+                  </div>
+               </div> 
+               {/* end of cp-form */}
                   </div> 
 
                   {/* end row */}
@@ -39,13 +53,12 @@ export default function App() {
                 </div>
 
                 {/* container fluid */}
+
                 </div>
 
                 {/* container */}
 
 
-             
-           
         
       </section>
     </div>

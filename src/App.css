@@ -11,13 +11,14 @@ a:hover,
 a:focus{
   text-decoration: none;
 }
-.see-more{
+.see-more,
+.cp-submit{
     display: inline-block;
     background-color: #304160;
     color: #fff;
     font-weight: 600;
     font-size: 15px;
-    padding: 12px 28px;
+    padding: 9px 28px;
     border-radius: 5px;
     transition: .3s;
     border: 0;
@@ -25,7 +26,9 @@ a:focus{
     margin-top: 20px;
 }
 .see-more:hover,
-.see-more:focus{
+.see-more:focus,
+.cp-submit:hover,
+.cp-submit:focus{
   color: #fff;
   opacity: 0.8;
   text-decoration: none;
@@ -35,6 +38,42 @@ a:focus{
 }
 .career-section{
   padding: 40px 0;
+}
+.cp-form {
+    margin-top: 40px;
+    background: #f2f4f6;
+    padding: 30px 20px;
+    width: 100%;
+    text-align: center;
+}
+.cp-form .form-group input{
+  margin-left: 20px;
+}
+.cp-form .form-group input:first-child {
+  margin-left: 0;
+}
+.cp-form .form-group{
+  margin: 0 auto;
+}
+button.cp-submit {
+  margin-left: 20px;
+  margin-top: 0;
+  height: 40px;
+}
+.cp-form .form-control{
+  min-height: 40px;
+}
+.cp-form h5{
+  margin-bottom: 15px;
+}
+.reserve-dialog{
+  width: 100%;
+  padding: 20px;
+  background:#304160db;
+  color: #fff;
+}
+.cp-reserved{
+  margin-bottom: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
